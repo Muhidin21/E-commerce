@@ -1,0 +1,134 @@
+.category-page {
+  min-height: 100vh;
+}
+
+.category-banner {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.category-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.exclusive-collection {
+  position: relative;
+  padding: 3rem 2rem;
+  margin: 2rem 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.exclusive-image {
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exclusive-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 1.5rem;
+}
+
+.product-info h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.product-price {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.current-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.old-price {
+  font-size: 1rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .category-banner {
+    height: 200px;
+  }
+
+  .exclusive-collection {
+    padding: 2rem 1rem;
+  }
+
+  .exclusive-image {
+    height: 300px;
+  }
+
+  .products-grid {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}

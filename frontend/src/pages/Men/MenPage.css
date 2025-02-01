@@ -1,0 +1,29 @@
+.add-to-cart {
+  width: 100%;
+  padding: 0.8rem;
+  background: #2874f0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.add-to-cart:hover:not(:disabled) {
+  background: #1a5cbd;
+}
+
+.add-to-cart.added {
+  background: #4caf50;
+  cursor: default;
+}
+
+.add-to-cart.in-cart {
+  background: #666;
+}
+
+.add-to-cart:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+} 
