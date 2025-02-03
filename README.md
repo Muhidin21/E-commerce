@@ -1,7 +1,7 @@
 #Overview
 
-This project is a fully functional e-commerce backend built using Node.js, Express.js, and MongoDB. 
-It provides API endpoints for managing users, products, carts, and orders with secure authentication and role-based authorization.
+This project is a fully functional E-commerce backend built using Node.js, Express.js, and MongoDB. 
+It provides API endpoints for managing users, products, carts, and orders with secure authentication and role-based authorization..
 # My E-commerce Project
 
 This is a screenshot of my e-commerce website:
